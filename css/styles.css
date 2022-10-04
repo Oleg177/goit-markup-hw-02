@@ -14,9 +14,11 @@
     }
 body {
         background-color: var(--bg-color-white);
-        font-family: Roboto, sans-serif; 
-        
+        font-family: Roboto, sans-serif;         
     }
+.link {
+    text-decoration: none;
+}
 .list {
         list-style: none;
     }
@@ -64,6 +66,8 @@ body {
 .hero {
     color: var(--color-text-white);
     background-color: var(--bd-color-brand);
+}
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -74,6 +78,7 @@ body {
 .hero-button {
     color: var(--color-text-white);
     background-color: var(--color-button-primary);
+    font-family: Roboto, sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -114,21 +119,18 @@ body {
 }
 .text {
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 .text-card {
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;    
     letter-spacing: 0.03em;
 }
 .text-portfolio {
     color: var(--secondary-text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;   
@@ -137,9 +139,10 @@ body {
 .button {
     color: var(--primary-text-color);
     background-color: var(--bg-color-secondary);
+    font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.62;
+    line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -159,7 +162,6 @@ body {
 .address {
     color: var(--color-text-white);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -168,7 +170,6 @@ body {
 .contact-footer {
     color: var(--color-contact);
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
